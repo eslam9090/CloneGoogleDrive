@@ -22,7 +22,7 @@ const FilesList = () => {
       component={Paper}
       elevation={2}
       sx={{
-        maxHeight: "100vh", // Adjust as needed
+        maxHeight: "60vh", // Adjust as needed
         overflowY: "scroll",
         mt: "100px",
         boxShadow: "none",

@@ -8,7 +8,7 @@ const FilesCards = () => {
   const { filteredFilesDate, setSelectedFile, selectedFile } = useFileContext();
 
   return (
-    <Box sx={{ mt: "100px", overflowY: "scroll", maxHeight: "100vh" }}>
+    <Box sx={{ mt: "100px", overflowY: "scroll", maxHeight: "60vh" }}>
       {selectedFile && (
         <Box
           sx={{
@@ -38,6 +38,7 @@ const FilesCards = () => {
           display: "flex",
           flexWrap: "wrap",
           gap: 2,
+          justifyContent: "center",
         }}
       >
         {filteredFilesDate.map((file) => (
