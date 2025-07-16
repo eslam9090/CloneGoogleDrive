@@ -37,7 +37,7 @@ const FileDetails = memo(({ clickedEl, handleClose }) => {
             <img
               src={selectedFile?.url}
               alt={selectedFile.name}
-              sx={{ width: "100%", height: "100px", display: "block" }}
+              style={{ width: "100%", height: "100px", display: "block" }}
             />
           </Box>
         ) : selectedFile?.type === "PDF" ? (
