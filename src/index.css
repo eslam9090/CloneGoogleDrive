@@ -1,0 +1,10 @@
+body {
+  background-color: #f8fafd !important;
+  overflow: hidden;
+}
+.app_container {
+  display: flex;
+  column-gap: 50px;
+  flex-grow: 1;
+  height: 100vh;
+}
