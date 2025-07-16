@@ -1,5 +1,5 @@
-import MyDrive from "./components/myDrive/MyDrive.jsx";
-import Sidebar from "./components/sidebar/sidebar.jsx";
+import MyDrive from "./components/MyDrive/MyDrive.jsx";
+import Sidebar from "./components/Sidebar/Sidebar.jsx";
 import "./index.css";
 function App() {
   return (
